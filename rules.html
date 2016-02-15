@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+        <title>Rules - Cyberfed</title>
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/materialize.min.js"></script>
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+        <!-- Reference Bootstrap -->
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta name="google-signin-client_id" content="757099700822-29tejoue31hcm39hhbqm4p7qgqbkh06d.apps.googleusercontent.com">
+	</head>
+	<body class="body-background">
+		<header>
+			<nav id="nav">
+				<ul>
+					<li>
+						<a id="logo" class="brand-logo visible-lg inline" href="main.html"><img src="images/cycfed.jpg"></a>
+					</li>
+					<li><a class="nav-item" href="main.html">Home</a></li>
+					<li><a class="nav-item" href="leaderboards.html">Leaderboard</a></li>
+					<li><a class="nav-item" href="teams.html">Teams</a></li>
+					<li><a class="nav-item active" href="rules.html">Rules</a></li>
+					<li class="right">
+						<a id="register" class="btn login-register" onclick="navigate('#' + this.id)">Login/Register</a>
+					</li>
+					<li class="right">
+                        <div style="margin-top: 5px; background-color: #616161; border-radius: 5px;">
+                            <div class="custom-input-field">
+							    <label for="search"><i style="line-height: 40px; color: white;" class="material-icons">search</i></label>
+                                <input id="search" type="search" placeholder="Type to search.." required>
+                            </div>
+                        </div>
+                    </li>
+				</ul>
+			</nav>
+		</header>
+		
+		CONTENT content
+		
+		<footer id="footer" class="page-footer footer-colors">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Footer Content</h5>
+                        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                    </div>
+                    <div id="social-media-container">
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#!"><img src="images/facebook.png"></a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!"><img src="images/g_plus_icon.png"></a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!"><img src="images/instagram.png"></a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!"><img src="images/linkedin.png"></a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!"><img src="images/twitter.png"></a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!"><img src="images/youtube.png"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2016 Copyright Cyberfed
+                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                </div>
+            </div>
+        </footer>
+	</body>
+	<script>
+		$('.nav-item').click(function(){
+
+			$('a').removeClass('active');
+			$(this).addClass('active');
+		});
+	</script>
+</html>

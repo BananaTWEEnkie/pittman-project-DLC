@@ -50,6 +50,7 @@
     padding-right: 15px;
     margin-top: 6%;
 }
+
 #body-background {
 	background: #E2DA99; /* For browsers that do not support gradients */
 	background: -webkit-linear-gradient(left top, #E2DA99, #342800); /* For Safari 5.1 to 6.0 */
@@ -183,6 +184,8 @@ nav ul li.nohover:hover{
 #search {
 	font-size: 15px;
 }
+
+
 #submit {
 	margin-right: auto;
 	margin-right: auto;
